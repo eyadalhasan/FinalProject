@@ -1,0 +1,7 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background: #000;
+    position: sticky;
+}

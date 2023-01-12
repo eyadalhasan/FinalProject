@@ -1,0 +1,75 @@
+body {
+    background-color: #000;
+}
+
+.card-footer{
+    background-color: #1e1e1e;
+    color: gray;
+    font-weight: bold;
+    padding:0px;
+    padding-left: 15px;
+    
+}
+a{
+    text-decoration: none;
+}
+.card-body {
+    
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    /* start showing ellipsis when 3rd line is reached */
+    text-overflow: ellipsis;
+    font-size: small;
+    background-color: #1e1e1e;
+    color: white;
+
+}
+
+@media(max-width:600px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .Slidebar {
+        min-height: 10vh;
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
+.video::-webkit-scrollbar {
+    display: none;
+}
+
+
+body .flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+
+
+
+}
+
+
+.flex-container::-webkit-scrollbar {
+    display: none;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.videosList {
+    overflow: auto;
+}
+
+.videosList::-webkit-scrollbar {
+    display: none;
+}

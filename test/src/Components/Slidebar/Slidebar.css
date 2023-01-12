@@ -1,0 +1,42 @@
+.Slidebar {
+    display: flex;
+    flex-direction: column;
+    min-width: 25vh;
+    border-right: 1px solid gray;
+    overflow: auto;
+}
+
+.Slidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.Slidebar button {
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.Slidebar button:hover {
+    background-color: red;
+}
+
+@media(max-width:600px) {
+    .Slidebar {
+        min-height: 10vh;
+
+
+    }
+
+
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    ;
+
+}
